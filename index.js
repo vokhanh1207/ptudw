@@ -9,7 +9,7 @@ const RedisStore = require('connect-redis').default;
 const { createClient } = require('redis');
 const redisClient = createClient({
     // url: 'rediss://red-ckemv2unpffc73909gj0:Fv30GTxy6DsK0ePpajFs5GTMjY24FVgb@oregon-redis.render.com:6379'
-    url: 'redis://red-ckemv2unpffc73909gj0:6379'
+    url: 'redis://red-ckenckua3ovc73fmn4a0:6379'
 });
 redisClient.connect().catch(console.error);
 
