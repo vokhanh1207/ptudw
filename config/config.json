@@ -1,5 +1,4 @@
 {
-  "use_env_variable": "POSTGRESQL_URL",
   "development": {
     "username": "ptudwprojectdb",
     "password": "ZfLN3IaBKQNJ8eIRmP4y8f0CgFF6zxSc",
@@ -21,10 +20,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "ptudwprojectdb",
-    "password": "ZfLN3IaBKQNJ8eIRmP4y8f0CgFF6zxSc",
-    "database": "ptudwprojectdb_5lg6",
-    "host": "dpg-ckek3q6npffc73a1kps0-a.singapore-postgres.render.com",
+    "use_env_variable": "POSTGRESQL_URL",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
